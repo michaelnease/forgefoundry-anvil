@@ -1,0 +1,45 @@
+{
+  "name": "@forge/anvil",
+  "version": "0.1.0",
+  "description": "Anvil \u2014 repo-agnostic AI code assistant CLI. Index locally, chat in terminal, and apply diffs safely.",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "bin": {
+    "anvil": "bin/anvil.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "cli",
+    "ai",
+    "code",
+    "assistant",
+    "llm",
+    "openai",
+    "repo"
+  ],
+  "dependencies": {
+    "chalk": "5.3.0",
+    "commander": "12.1.0",
+    "diff": "5.2.0",
+    "fast-glob": "3.3.2",
+    "ignore": "5.3.1",
+    "js-yaml": "4.1.0",
+    "minisearch": "7.1.0",
+    "node-fetch": "3.3.2",
+    "openai": "4.67.3",
+    "picocolors": "1.1.0",
+    "simple-git": "3.27.0",
+    "strip-ansi": "7.1.0",
+    "zod": "3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "22.7.6",
+    "tsx": "4.19.2",
+    "typescript": "5.6.3"
+  }
+}
