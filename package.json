@@ -1,5 +1,5 @@
 {
-  "name": "@forge/anvil",
+  "name": "@forgefoundry/anvil",
   "version": "0.1.0",
   "description": "Anvil \u2014 repo-agnostic AI code assistant CLI. Index locally, chat in terminal, and apply diffs safely.",
   "license": "MIT",
