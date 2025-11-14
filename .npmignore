@@ -1,0 +1,48 @@
+# Source files
+src/
+tsconfig.json
+vitest.config.ts
+
+# Development files
+*.test.ts
+*.spec.ts
+**/*.test.js
+**/*.spec.js
+**/*.test.d.ts
+**/*.spec.d.ts
+.vscode/
+.idea/
+
+# Build artifacts (keep dist/ for publishing)
+*.tsbuildinfo
+
+# Test files
+coverage/
+.nyc_output/
+
+# Development dependencies
+node_modules/
+
+# Git
+.git/
+.gitignore
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
