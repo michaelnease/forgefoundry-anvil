@@ -1,7 +1,7 @@
 {
   "name": "@forgefoundry/anvil",
   "version": "0.1.0",
-  "description": "Anvil — repo-agnostic AI code assistant CLI. Index locally, chat in terminal, and apply diffs safely.",
+  "description": "Developer first CLI that indexes your codebase locally, enables AI-powered terminal chat, and safely applies code changes through reviewable unified diffs.",
   "license": "MIT",
   "type": "commonjs",
   "main": "dist/index.js",
