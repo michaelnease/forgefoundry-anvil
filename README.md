@@ -1,13 +1,13 @@
-# @forge/anvil — AI code assistant CLI
+# @forgefoundry/anvil — AI code assistant CLI
 
 Anvil is a developer-first CLI that indexes your repo locally, lets you **chat in the terminal**, and proposes **unified diffs** you can review and apply.
 
 ## Install
 
 ```bash
-npm i -g @forge/anvil
+npm i -g @forgefoundry/anvil
 # or
-npx @forge/anvil@latest chat
+npx @forgefoundry/anvil@latest chat
 ```
 
 ## Quick start
